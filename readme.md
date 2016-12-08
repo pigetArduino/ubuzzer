@@ -1,4 +1,4 @@
-[Version française / French version](https://github.com/pigetArduino/ubuzzer/blob/master/README.fr.MD)
+[Version française / French version](https://github.com/pigetArduino/ubuzzer/blob/master/README.fr.md)
 
 ![Photo UBuzzer](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_photo.jpg)   
 UBuzzer is an usb device maded from an Arduino nano (clone) to control a buzzer   
