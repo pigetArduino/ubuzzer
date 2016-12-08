@@ -17,23 +17,23 @@ Demo:
 How to install drivers ?: https://www.youtube.com/watch?v=m3CsftsfiQU
 
 # Availables commands
-You can test this device on **Arduino Serial Monitor**
-Baudrate : 115200 / No Line Ending   
+You can test this device on **Arduino Serial Monitor**    
+Baudrate : 115200 / No Line Ending     
 
-* UBuzzer --------> Check if this is the right device 
-* X -------> Where X is the frequency
-* OFF -------> Stop sound
+* UBuzzer --------> Check if this is the right device    
+* X -------> Where X is the frequency   
+* OFF -------> Stop sound    
 
 # Components
-* Arduino nano CH340G: 2€
-* 1 Buzzer : ??€
-* Resistor pack 400pcs (3€) (1 resistance: 0.0071€)
-* Total : ??€
+* Arduino nano CH340G: 2€    
+* 1 Buzzer : ??€    
+* Resistor pack 400pcs (3€) (1 resistance: 0.0071€)   
+* Total : ??€   
 
 # Wiring
 ![UBuzzer Wiring](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_wiring.png)   
-Pin 9 : RESISTOR (100Ohm) --- Buzzer +
-Pin 10 : Buzzer -
+Pin 9 : RESISTOR (100Ohm) --- Buzzer +   
+Pin 10 : Buzzer -    
 
 # Impression 3D
 
@@ -45,7 +45,7 @@ https://github.com/pigetArduino/uled/
 
 ## Install rtmidi2
 We are going to use rtmidi2 to manage midi   
-* Download ![rtmidi2](https://github.com/gesellkammer/rtmidi2/archive/master.zip)
+* Download [rtmidi2](https://github.com/gesellkammer/rtmidi2/archive/master.zip)
 * In the command line go to rtmidi2 folder
 * Type
 ```
