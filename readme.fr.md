@@ -28,15 +28,15 @@ Baudrate : 115200 / No Line Ending
 
 
 # Composants
-* Arduino nano CH340G: 2€
-* 1 Buzzer : ??€
-* Resistor pack 400pcs (3€) (1 resistance: 0.0071€)
-* Total : ??€
+* Arduino nano CH340G: 2€    
+* 1 Buzzer : ??€   
+* Resistor pack 400pcs (3€) (1 resistance: 0.0071€)   
+* Total : ??€   
 
 # Branchement
 ![UBuzzer Wiring](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_wiring.png)   
-Pin 9 : RESISTANCE (100Ohm) --- Buzzer +
-Pin 10 : Buzzer -
+Pin 9 : RESISTANCE (100Ohm) --- Buzzer +    
+Pin 10 : Buzzer -   
 
 # Impression 3D
 
@@ -47,23 +47,23 @@ Pin 10 : Buzzer -
 * Le code source est disponible dans **apps/ubuzzer**
 
 ## Installer rtmidi2
-Afin de gérer le midi nous utilisons rtmidi2   
-* Télécharger ![rtmidi2](https://github.com/gesellkammer/rtmidi2/archive/master.zip)
-* Aller dans le dossier en ligne de Commande
-* Tapez
+Afin de gérer le midi nous utilisons rtmidi2     
+* Télécharger ![rtmidi2](https://github.com/gesellkammer/rtmidi2/archive/master.zip)   
+* Aller dans le dossier en ligne de Commande   
+* Tapez   
 ```
 pip install cython
 python setup.py install
 ```
 
 #LoopMidi
-![LoopMidi Add Midi Port](https://github.com/pigetArduino/ubuzzer/raw/master/doc/loopMidi.png) 
-Malheuresement sous Windows rtmidi ne peut pas générer de port midi virtuel   
-Nous allons utiliser loopMidi pour faire cela.
-* Télécharger http://www.tobias-erichsen.de/software/loopmidi.html
-* Cliquer sur + pour créer un port midi virtuel
+![LoopMidi Add Midi Port](https://github.com/pigetArduino/ubuzzer/raw/master/doc/loopMidi.png)      
+Malheuresement sous Windows rtmidi ne peut pas générer de port midi virtuel      
+Nous allons utiliser loopMidi pour faire cela.    
+* Télécharger http://www.tobias-erichsen.de/software/loopmidi.html    
+* Cliquer sur + pour créer un port midi virtuel    
 
 # Licences
-Logiciel par Rémi Sarrailh (madnerd.org)   
-License: MIT
+Logiciel par Rémi Sarrailh (madnerd.org)      
+License: MIT    
 

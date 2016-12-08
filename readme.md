@@ -35,7 +35,7 @@ Baudrate : 115200 / No Line Ending
 Pin 9 : RESISTOR (100Ohm) --- Buzzer +   
 Pin 10 : Buzzer -    
 
-# Impression 3D
+# 3D Printing
 
 # Create your own application
 * Check these tutorials:    
@@ -54,7 +54,7 @@ python setup.py install
 ```
 
 #LoopMidi
-![LoopMidi Add Midi Port](https://github.com/pigetArduino/ubuzzer/raw/master/doc/loopMidi.png) 
+![LoopMidi Add Midi Port](https://github.com/pigetArduino/ubuzzer/raw/master/doc/loopMidi.png)     
 Unfortunately rtmidi can't generate virtual midi port on Windows
 We are going to use loopMidi instead
 * Download http://www.tobias-erichsen.de/software/loopmidi.html
