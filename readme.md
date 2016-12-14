@@ -2,24 +2,40 @@
 
 ![Photo UBuzzer](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_photo.jpg)   
 UBuzzer is an usb device maded from an Arduino nano (clone) to control a buzzer   
-An application is available to use this buzzer on a music software and a USB midi keyboard.
+An application is available to use this buzzer on a music software and/or a USB midi keyboard.
+
+**Warning: This application should be considered alpha, and could not works correctly.**      
+
 Demo: 
 
 ![UBuzzer App](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_app.png)   
 
-# Usage
-* Install arduino nano (clone ch340g) : http://nano.madnerd.org
+# Installation
+Drivers for the Arduino nano ch340 is provided in the installer.    
+It will install it silently     
+
 * Download arduino/python code : http://ubuzzer.madnerd.org
 * Upload **ubuzzer.ino** sketch
-* Download ubuzzer app : http://ubuzzerdapp.madnerd.org    
+* Download ubuzzer installer : http://ubuzzerdapp.madnerd.org    
 
-How to install drivers ?: https://www.youtube.com/watch?v=m3CsftsfiQU
 
-# Use LMMS/Fruity Loop/Reason to control the buzzer
-* Download loopMidi : http://www.tobias-erichsen.de/software/loopmidi.html
-* Create a virtual port
+# Usage
+## Midi Keyboard
+Just plug your midi keyboard and play, ubuzzer will detect it automatically.
 
-# Availables commands
+## Midi Software
+
+### LoopMidi
+![LoopMidi Add Midi Port](https://github.com/pigetArduino/ubuzzer/raw/master/doc/loopMidi.png)     
+Unfortunately rtmidi can't generate virtual midi port on Windows
+We are going to use loopMidi instead
+* Download http://www.tobias-erichsen.de/software/loopmidi.html
+* Click on **+** to create a virtual midi port
+
+### LMMS
+
+
+## Arduino Serial Monitor
 You can test this device on **Arduino Serial Monitor**    
 Baudrate : 115200 / No Line Ending     
 
@@ -34,18 +50,20 @@ Baudrate : 115200 / No Line Ending
 * Total : ??€   
 
 # Wiring
+
+## Buzzer only
 ![UBuzzer Wiring](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_wiring.png)   
-Pin 9 : RESISTOR (100Ohm) --- Buzzer +   
-Pin 10 : Buzzer -    
+* Pin 9 : RESISTOR (100Ohm) --- Buzzer +   
+* Pin 10 : Buzzer -    
+
+## Buzzer/Led
+* Pin 9 : RESISTOR (100Ohm) --- Led + / Buzzer +   
+* Pin 10 : Led - / Buzzer -    
+
 
 # 3D Printing
 
-#LoopMidi
-![LoopMidi Add Midi Port](https://github.com/pigetArduino/ubuzzer/raw/master/doc/loopMidi.png)     
-Unfortunately rtmidi can't generate virtual midi port on Windows
-We are going to use loopMidi instead
-* Download http://www.tobias-erichsen.de/software/loopmidi.html
-* Click on **+** to create a virtual midi port
+
 
 [Developer documentation](https://github.com/pigetArduino/ubuzzer/blob/master/dev.readme.md)
 
