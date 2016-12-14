@@ -18,7 +18,6 @@ It will install it silently
 * Upload **ubuzzer.ino** sketch
 * Download ubuzzer installer : http://ubuzzerdapp.madnerd.org    
 
-
 # Usage
 ## Midi Keyboard
 Just plug your midi keyboard and play, ubuzzer will detect it automatically.
@@ -33,6 +32,11 @@ We are going to use loopMidi instead
 * Click on **+** to create a virtual midi port
 
 ### LMMS
+![Ubuzzer on LMMS](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_lmms.png)
+* Download LMMS : https://lmms.io/download/#windows
+* On **TripleOscillator** put the volume to 0
+* Click on the gear next to **TripleOscillator**
+* Click on Midi and choose your **virtual midi port** (**Loopmidi by default**)
 
 
 ## Arduino Serial Monitor
