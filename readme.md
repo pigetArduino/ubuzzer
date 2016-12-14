@@ -66,8 +66,9 @@ Baudrate : 115200 / No Line Ending
 
 
 # 3D Printing
-
-
+This model is an all purpose case for arduino nano projects    
+Models by Olivier Sarrailh : https://github.com/pigetArduino/ubuzzer/tree/master/3D    
+** You won't be able to properly close the case as the buzzer takes too much place, but you should still be able to close it **
 
 [Developer documentation](https://github.com/pigetArduino/ubuzzer/blob/master/dev.readme.md)
 
