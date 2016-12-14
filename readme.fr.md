@@ -80,7 +80,7 @@ Modèle fait par Olivier Sarrailh : https://github.com/pigetArduino/ubuzzer/tree
 **Vous n'arrivez pas à fermer correctement le boitier car le buzzer prends lègerement trop de place, pour autant le boitier reste fermable**
 
 # Faire un installeur pour une application utilisant un Arduino
-[Documentation du développeur](https://github.com/pigetArduino/ubuzzer/blob/master/dev.readme.md)
+[Documentation du développeur](https://github.com/pigetArduino/ubuzzer/blob/master/dev.readme.fr.md)
 
 # Licenses
 Logiciel par Rémi Sarrailh (madnerd.org)   
