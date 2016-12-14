@@ -37,7 +37,7 @@ python setup.py install
 * Type:
 ```
 python ubuzzer.py
-
+```
 ## Compile Application
 You will need pyinstaller to compile your application
 ```
@@ -51,8 +51,8 @@ pyinstaller --noconsole --icon=ubuzzer.ico ubuzzer.py
 ## Make an installer with inno setup compiler
 * Download inno setup compiler: http://www.jrsoftware.org/isinfo.php
 * Download Arduino Drivers for nano ch340g : http://nano.madnerd.org
-* Open app/buzzer/buzzer_installer.iss
-* Change path
+* Open **app/buzzer/buzzer_installer.iss**
+* Change paths
 ```
 ;CHANGE PATHS before compiling!
 #define APP "Y:\arduino\ubuzzer\apps\ubuzzer\dist\ubuzzer\"

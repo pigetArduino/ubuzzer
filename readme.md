@@ -25,13 +25,13 @@ If ubuzzer doesn't works, check that
 
 # Usage
 ## Midi Keyboard
-Just plug your midi keyboard and play, ubuzzer will detect it **automatically**.
+Just plug your midi keyboard and play, ubuzzer will detect it **automatically**
 
 ## Midi Software
 
 ### LoopMidi
 ![LoopMidi Add Midi Port](https://github.com/pigetArduino/ubuzzer/raw/master/doc/loopMidi.png)     
-Unfortunately rtmidi can't generate virtual midi port on Windows
+Unfortunately rtmidi can't generate virtual midi port on Windows   
 We are going to use loopMidi instead
 * Download http://www.tobias-erichsen.de/software/loopmidi.html
 * Click on **+** to create a virtual midi port
@@ -72,7 +72,6 @@ You can either use tape/hot glue/Blu-Tack (patafix)
 Just add a led (**before the resistor**)
 * Pin 9 : RESISTOR (100Ohm) --- Led + / Buzzer +   
 * Pin 10 : Led - / Buzzer -    
-
 
 # 3D Printing
 This model is an all purpose case for arduino nano projects    
