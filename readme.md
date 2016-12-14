@@ -9,12 +9,15 @@ Demo:
 
 # Usage
 * Install arduino nano (clone ch340g) : http://nano.madnerd.org
-* Download loopMidi : http://www.tobias-erichsen.de/software/loopmidi.html
 * Download arduino/python code : http://ubuzzer.madnerd.org
 * Upload **ubuzzer.ino** sketch
 * Download ubuzzer app : http://ubuzzerdapp.madnerd.org    
 
 How to install drivers ?: https://www.youtube.com/watch?v=m3CsftsfiQU
+
+# Use LMMS/Fruity Loop/Reason to control the buzzer
+* Download loopMidi : http://www.tobias-erichsen.de/software/loopmidi.html
+* Create a virtual port
 
 # Availables commands
 You can test this device on **Arduino Serial Monitor**    
@@ -46,6 +49,8 @@ https://github.com/pigetArduino/uled/
 ## Install rtmidi2
 We are going to use rtmidi2 to manage midi   
 * Download [rtmidi2](https://github.com/gesellkammer/rtmidi2/archive/master.zip)
+* Download [Visual Studio Community](http://www.visualstudio.com/vs/community)
+* Install Visual Studio Community and Select only **Visual C++/Tools**
 * In the command line go to rtmidi2 folder
 * Type
 ```

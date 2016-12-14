@@ -1,2 +1,2 @@
-pyinstaller --onefile --noconsole --icon=ul.ico ul.py 
-rem pyinstaller --onefile ul.py 
+pyinstaller --noconsole --icon=ubuzzer.ico ubuzzer.py 
+rem pyinstaller --debug ubuzzer.py --log-level=DEBUG --hidden-import=cython --hidden-import=rtmidi2
