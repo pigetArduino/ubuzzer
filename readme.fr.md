@@ -4,7 +4,7 @@
 UBuzzer est un périphérique à base d'Arduino nano pour contrôler un buzzer   
 Une application est disponible pour utiliser le buzzer dans un **logiciel de musique** ou/avec un **clavier midi**.
 
-**Attention: L'application est en alpha, il se peut qu'il ne marche pas correctement!**      
+**Attention: L'application est en alpha, il se peut qu'elle ne marche pas correctement!**      
 
 Démo: 
 
