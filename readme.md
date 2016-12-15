@@ -66,13 +66,13 @@ Don't forget to isolate the circuit from the arduino (see video)
 You can either use tape/hot glue/Blu-Tack (patafix)
 ## Buzzer only
 ![UBuzzer Wiring](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_wiring.png)   
-* Pin 9 : RESISTOR (100Ohm) --- Buzzer +   
-* Pin 10 : Buzzer -    
+* Pin 10 : RESISTOR (100Ohm) --- Buzzer +   
+* Pin 9 : Buzzer -    
 
 ## Buzzer/Led
 Just add a led (**before the resistor**)
-* Pin 9 : RESISTOR (100Ohm) --- Led + / Buzzer +   
-* Pin 10 : Led - / Buzzer -    
+* Pin 10 : RESISTOR (100Ohm) --- Led + / Buzzer +   
+* Pin 9 : Led - / Buzzer -    
 
 # 3D Printing
 This model is an **all purpose case** for arduino nano projects    
