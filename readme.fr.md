@@ -66,13 +66,13 @@ N'oubliez pas d'isoler le circuit de l'arduino (voir vidéo de démonstration)
 Vous pouvez utiliser du scotch/colle chaude/patafix     
 ## Buzzer seul
 ![Branchement UBuzzer](https://github.com/pigetArduino/ubuzzer/raw/master/doc/ubuzzer_wiring.png)   
-* Broche 9 : RESISTANCE (100Ohm) --- Buzzer +   
-* Broche 10 : Buzzer -    
+* Broche 10 : RESISTANCE (100Ohm) --- Buzzer +   
+* Broche 9 : Buzzer -    
 
 ## Buzzer/LED
 Ajouter une LED (**avant la résistance**)
-* Broche 9 : RESISTANCE (100Ohm) --- Led + / Buzzer +   
-* Broche 10 : Led - / Buzzer -    
+* Broche 10 : RESISTANCE (100Ohm) --- Led + / Buzzer +   
+* Broche 9 : Led - / Buzzer -    
 
 # Impression 3D
 Ce modèle est un boitier pour les projets à base d'Arduino nano    
